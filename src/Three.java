@@ -17,7 +17,7 @@
 //          input: 5     output: 15
 //          input: 4321  output: 9337681
 import java.util.Scanner;
-public class Main {
+public class Three {
     public static void main(String[] args) {
         Scanner myObj = new Scanner(System.in);
         int num = myObj.nextInt();
@@ -25,8 +25,6 @@ public class Main {
         Summer s = new Summer();
         System.out.println(s.summer(num));
     }
-
-
 }
 
 class Summer {
